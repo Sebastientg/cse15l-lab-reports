@@ -1,4 +1,4 @@
-# Lab 1
+# Lab Report 1
 
 *pwd checks where terminal is*
 
