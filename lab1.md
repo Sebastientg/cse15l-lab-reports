@@ -1,6 +1,7 @@
 # Lab 1
 
 *pwd checks where terminal is*
+
 *code examples in images*
 
 ## Reports on cd
