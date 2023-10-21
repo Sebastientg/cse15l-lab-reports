@@ -7,8 +7,8 @@ Here is the code:
 ![Image](Lab2Code.png)
 
 Here are 2 exapmles of the server working: 
-![Image](Hello.png)
 ![Image](HowAreYou.png)
+![Image](Hello.png)
 
 ## Part 2
 
