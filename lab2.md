@@ -12,12 +12,14 @@ Here are 2 exapmles of the server working:
 
 ## Part 2
 
+Path to public key: 
+![Image](publicKey.png)
 
+Path to private key:
+![Image](privateKey.png)
 
-
-
-
-
+Account Terminal Interaction w/o password:
+![Image](TerminalInteraction.png)
 
 ## Part 3
 Something I learned in week 1 and 2 that I found super cool was learning how to work with urls. I learned how to use java libraries and imported functionalities to start and manipulate web servers with basic code. This also helped me become more familiar with the commands in the command line for starting servers and understanding the directories I am working in.  
