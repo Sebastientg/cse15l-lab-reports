@@ -12,11 +12,11 @@ Here are 2 exapmles of the server working:
 
 ## Part 2
 
-Path to public key: 
-![Image](publicKey.png)
-
 Path to private key:
 ![Image](privateKey.png)
+
+Path to public key: 
+![Image](publicKey.png)
 
 Account Terminal Interaction w/o password:
 ![Image](TerminalInteraction.png)
