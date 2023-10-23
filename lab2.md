@@ -12,10 +12,10 @@ Here are 2 exapmles of the server working:
 
 ## Part 2
 
-Path to private key:
+Path to private key: /Users/sebastientello/.ssh/id_rsa
 ![Image](privateKey.png)
 
-Path to public key: 
+Path to public key: /home/linux/ieng6/cs15lfa23/cs15lfa23fa/.ssh/id_rsa.pub.
 ![Image](publicKey.png)
 
 Account Terminal Interaction w/o password:
