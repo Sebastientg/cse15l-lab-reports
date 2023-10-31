@@ -30,22 +30,22 @@ static void reverseInPlace(int[] arr) {
 
 ## Part 2 - Researching Commands - "Grep"
 
-1. grep with -r
+__1. grep with -r__
 Example 1:
 
 Example 2:
  
-3. grep with -n
+__2. grep with -n__
 Example 1:
 
 Example 2:   
    
-5. grep with -e
+__3. grep with -e__
 Example 1:
 
 Example 2:   
    
-7. grep with -l
+__4. grep with -l__
 Example 1:
 
 Example 2:   
