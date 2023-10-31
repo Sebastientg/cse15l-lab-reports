@@ -27,3 +27,25 @@ static void reverseInPlace(int[] arr) {
 
   }
 ```
+
+## Part 2 - Researching Commands - "Grep"
+
+1. grep with -r
+Example 1:
+
+Example 2:
+ 
+3. grep with -n
+Example 1:
+
+Example 2:   
+   
+5. grep with -e
+Example 1:
+
+Example 2:   
+   
+7. grep with -l
+Example 1:
+
+Example 2:   
