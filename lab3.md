@@ -1,7 +1,7 @@
 # Lab Report 3
 
 ## Part 1 - Bugs 
-Array data structure code of reversing and integer type list: 
+Array data structure code of reversing and integer type array: 
 The original code contains a bug when attempting to reverse an array. When the code assigns arr[i] to a new value, the original value is overwritten before it is assigned to the correct position. To fix this issue the new code uses two pointers to to switch the values from start to end. This way, the elements are correctly reversed in place without overwriting their original values. 
 
 Before Code: 
