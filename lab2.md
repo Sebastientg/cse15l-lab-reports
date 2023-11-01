@@ -10,10 +10,10 @@ Here is the code:
 ![Image](Lab2Code2.png)
 
 Here are 2 examples of the server working: 
-![Image](Hello.png)
+![Image](HowAreYou.png)
 As mentioned earlier, the methods used to call and run the website server are the `handleRequest` method and the `main` method. The relevant argument for the `main` method is the port number, which I used port 2025 for my website. This can change based on what port number the user decides to use. The relevant argument for the `handleRequest` method is the URL and its relevant fields are the path and query. The value of the query changes based on the specific request of the user's input of what they want to add to the messages. The `/add-message` path shouldn't change if we want to keep adding messages to the website. In this example, I inputted `/add-message` as the path and 'Hello' as the query. This results in the output of '1. Hello'.
 
-![Image](HowAreYou.png)  
+![Image](Hello.png)  
 As mentioned earlier, the methods used to call and run the website server are the `handleRequest` method and the `main` method. The relevant values for the `main` method is the port number, which I used port 2025 for my website. This can change based on what port number the user decides to use. The relevant argument for the `handleRequest` method is the URL and its relevant fields are the path and query. The value of the query changes based on the specific request of the user's input of what they want to add to the messages. In this example, I inputted `/add-message` as the path and 'How Are You' as the query. The `/add-message` path shouldn't change if we want to keep adding messages to the website. The count of the strings gets incremented by 1 each time a string is added. This is another value that changes based on the amount of times strings are added to the website. This results in the output of '2. How Are You'.
 
 ## Part 2
