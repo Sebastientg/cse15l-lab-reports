@@ -80,7 +80,17 @@ grep -r "executive guide" ./technical/government
 
 __2. grep with -n__
 
-Example 1:
+Example 1: The command searches for a specfic string, given a path to a specific file, to return the line where that string is located along with the string contents of that line. This is useful when wanting to find the line number/s of a specific string in a file. 
+
+*Input*
+```
+grep -n "asemissions" ./technical/government/Env_Prot_Agen/bill.txt
+```
+
+*Output*
+```
+6979:cost-effectively asemissions from each other principal category of
+```
 
 Example 2:   
    
