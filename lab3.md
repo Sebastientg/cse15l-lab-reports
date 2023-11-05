@@ -107,7 +107,20 @@ grep -nH "coastal ecosystems" ./technical/government/Env_Prot_Agen/final.txt
 
 __3. grep with -e__
 
-Example 1:
+Example 1: In this command, grep -e is used to specify to string patterns. The command simply returns every line  that contains "afford" or "non-profit." This is useful when wanting to search for multiple pattterns/strings simultaneously in a file with an output of just a text line. (current directory in example: /Users/sebastientello/Desktop/School/CSE 15L/lab5/docsearch-main/technical/government/media)
+
+*Input*
+```
+grep -e "afford" -e "non-profit" Legal_Aid_in_Clay_County.txt
+```
+
+*Output*
+```
+often are the ones who can least afford it. That's when
+office in Green Cove Springs, the non-profit agency handled more
+resources they don't need shelter and they can afford private
+```
+
 
 Example 2:   
    
