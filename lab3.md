@@ -32,7 +32,7 @@ static void reverseInPlace(int[] arr) {
 
 __1. grep with -r__
 
-Example 1: The command is seaching the string "Salt Lake City" in all text files within the current directory and its subdirectories. This is useful when wanting to make a simple search without any paths in the argument. 
+Example 1: The command is seaching the string "Salt Lake City" in all text files within the current directory and its subdirectories. This is useful when wanting to make a simple search without any paths in the argument. This command returns the lines with the given string and the paths. 
 
 *Input* 
 ```
@@ -92,8 +92,19 @@ grep -n "asemissions" ./technical/government/Env_Prot_Agen/bill.txt
 6979:cost-effectively asemissions from each other principal category of
 ```
 
-Example 2:   
-   
+Example 2: The command is searching for string with a given path. The additional H to the -n commands the terminal to return an output that displays the path, including the file name, along with the line number and line the string is in. This is useful when wanting an output that displays the file where the string is in and its line number and line.  
+
+*Input*
+```
+grep -nH "coastal ecosystems" ./technical/government/Env_Prot_Agen/final.txt
+```
+
+*Output*
+```
+./technical/government/Env_Prot_Agen/final.txt:53:freshwater and coastal ecosystems would be likely. Public health
+./technical/government/Env_Prot_Agen/final.txt:443:many of our nation's coastal ecosystems. They include algal blooms
+```
+
 __3. grep with -e__
 
 Example 1:
