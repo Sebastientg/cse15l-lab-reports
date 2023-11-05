@@ -34,6 +34,25 @@ __1. grep with -r__
 
 Example 1:
 
+*Input* 
+```
+grep -r "Salt Lake City"
+```
+
+*Output*
+```
+./technical/government/Env_Prot_Agen/jeffordslieberm.txt:Air & Waste Management Association, Salt Lake City, June 18-22,
+./technical/government/Media/It_Pays_to_Know.txt:Salt Lake City Tribune
+./technical/government/Media/It_Pays_to_Know.txt:Glendale Senior Housing in Salt Lake City last month, she moved to
+./technical/government/Media/It_Pays_to_Know.txt:Meanwhile, Sweat's granddaughter called Salt Lake City housing
+./technical/government/Media/The_State_of_Pro_Bono.txt:Alan Sullivan of the Salt Lake City office of Phoenix's Snell
+./technical/government/Media/5_Legal_Groups.txt:Salt Lake City Tribune
+./technical/biomed/1471-2172-4-1.txt:          BioScience, Salt Lake City, UT). For experiments
+./technical/biomed/1472-6947-2-7.txt:          Intermountain Health Care in Salt Lake City, Wishard
+./technical/biomed/1471-2369-3-6.txt:        Regional University Pathologists, Salt Lake City, UT) in
+./technical/biomed/1471-2180-2-38.txt:        Microbiology Meeting, Salt Lake City, May 2002
+```
+
 Example 2:
  
 __2. grep with -n__
