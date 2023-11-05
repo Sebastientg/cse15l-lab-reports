@@ -53,8 +53,31 @@ grep -r "Salt Lake City"
 ./technical/biomed/1471-2180-2-38.txt:        Microbiology Meeting, Salt Lake City, May 2002
 ```
 
-Example 2: 
- 
+Example 2: The command is searching the path ./technical/government to find search for the string "executive guide." This command is useful when wanting to search a specific string in a specific directory or subdirectory. 
+
+*Input*
+```
+grep -r "executive guide" ./technical/government
+```
+
+*Output*
+```
+./technical/government/Gen_Account_Office/d0269g.txt:This executive guide is intended to identify effective practices
+./technical/government/Gen_Account_Office/d0269g.txt:This executive guide was prepared under the direction of Linda
+./technical/government/Gen_Account_Office/d0269g.txt:In this executive guide, we highlight many of the strategic
+./technical/government/Gen_Account_Office/d0269g.txt:6this executive guide focuses on internal controls as
+./technical/government/Gen_Account_Office/d0269g.txt:draft of this executive guide to obtain comments from interested
+./technical/government/Gen_Account_Office/Testimony_cg00010t.txt:in GAO's executive guides have been incorporated into policy
+./technical/government/Gen_Account_Office/d01376g.txt:their practices and assisting us in producing this executive guide.
+./technical/government/Gen_Account_Office/d01376g.txt:This executive guide includes examples from our case study
+./technical/government/Gen_Account_Office/gg96118.txt:In this executive guide, we discuss the three key steps and
+./technical/government/Gen_Account_Office/gg96118.txt:with each step.6 In the final section of this executive guide, we
+./technical/government/Gen_Account_Office/gg96118.txt:executive guide are largely a synthesis of previously published
+./technical/government/Gen_Account_Office/ai00134.txt:executive guide is intended to assist federal agencies in achieving
+./technical/government/Gen_Account_Office/ai00134.txt:This executive guide was prepared under the direction of Lisa G.
+./technical/government/Gen_Account_Office/ai00134.txt:executive guide, along with our 1998 report on the training and
+```
+
 __2. grep with -n__
 
 Example 1:
