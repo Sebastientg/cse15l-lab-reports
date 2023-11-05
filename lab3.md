@@ -32,7 +32,7 @@ static void reverseInPlace(int[] arr) {
 
 __1. grep with -r__
 
-Example 1:
+Example 1: The command is seaching the string "Salt Lake City" in all text files within the current directory and its subdirectories. This is useful when wanting to make a simple search without any paths in the argument. 
 
 *Input* 
 ```
@@ -53,7 +53,7 @@ grep -r "Salt Lake City"
 ./technical/biomed/1471-2180-2-38.txt:        Microbiology Meeting, Salt Lake City, May 2002
 ```
 
-Example 2:
+Example 2: 
  
 __2. grep with -n__
 
