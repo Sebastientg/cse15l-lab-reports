@@ -152,6 +152,22 @@ At the heart of the report was a survey of 1,622 third-year law...
  
 __4. grep with -l__
 
-Example 1:
+Example 1: The command searches the given path for a string and returns all the texts files within that directory path with the string. This is useful when wanting to identify relevant files and find specific patterns in a folder with text files. 
+
+*Input*
+```
+grep -l "conditions" ./technical/911report/*
+```
+
+*Output*
+```
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+```
 
 Example 2:   
