@@ -122,8 +122,34 @@ resources they don't need shelter and they can afford private
 ```
 
 
-Example 2:   
-   
+Example 2: This command uses -v and -e to return the contents of the text file exculding the given string which in this case is "New York Law Journal." This can be useful when cleaning data, removing unwanted information in a file, or simplifying search results by excluding irrelevant data. (current directory in example: /Users/sebastientello/Desktop/School/CSE 15L/lab5/docsearch-main/technical/government/media)
+
+*Input*
+```
+grep -v -e "New York Law Journal" Survey.txt
+```
+
+*Output*
+```
+Survey: Most Law Students Can't Afford Public Service
+
+Thomas Adcock
+12-09-2002
+For those worried about the indebtedness of young attorneys --
+and how this affects the future of government and public interest
+law -- fresh anxiety arrived last month with a national survey
+showing that two-thirds of today's law school graduates cannot
+afford to think about taking low-paying jobs.
+Mortgage-sized tuition debts, warned the report, have dire
+consequences for the future of poverty law agencies and legal
+departments in state and federal government. The 47-page report,
+"From Paper Chase to Money Chase: Law School Debt Diverts Road to
+Public Service," was sponsored by the Partnership for Public
+Service, Equal Justice Works and the National Association for Law
+Placement.
+At the heart of the report was a survey of 1,622 third-year law...
+```
+ 
 __4. grep with -l__
 
 Example 1:
