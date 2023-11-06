@@ -188,4 +188,4 @@ grep -l "increased levels" ./technical/plos/*.txt
 ./technical/plos/pmed.0020198.txt
 ```
 
-I used the following source for guidance: [Link]([http://a.com](https://www.javatpoint.com/linux-tutorial)https://www.javatpoint.com/linux-tutorial)
+I used the following source for guidance: [Link]([http://a.com](https://www.javatpoint.com/linux-tutorial)https://www.javatpoint.com/linux-tutorial) 
