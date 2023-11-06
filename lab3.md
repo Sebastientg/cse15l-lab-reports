@@ -170,4 +170,22 @@ grep -l "conditions" ./technical/911report/*
 ./technical/911report/chapter-9.txt
 ```
 
-Example 2:   
+Example 2: The commands searches for the string phrase "increased levels" in the given directory structure. The command searches for the string in all the text files within the directory. This is useful when wanting to search for a phrase in only text files, to find the specific files where that specific phrase may be.    
+
+*Input*
+```
+grep -l "increased levels" ./technical/plos/*.txt
+```
+
+*Output*
+```
+./technical/plos/journal.pbio.0020019.txt
+./technical/plos/pmed.0010039.txt
+./technical/plos/pmed.0010045.txt
+./technical/plos/pmed.0020045.txt
+./technical/plos/pmed.0020094.txt
+./technical/plos/pmed.0020160.txt
+./technical/plos/pmed.0020198.txt
+```
+
+I used the following source for guidance: [Link]([http://a.com](https://www.javatpoint.com/linux-tutorial)https://www.javatpoint.com/linux-tutorial)
