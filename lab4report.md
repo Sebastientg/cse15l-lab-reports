@@ -1,7 +1,7 @@
-Lab 4 Report
+# Lab 4 Report
 
 
-STEPS: 
+**STEPS:** 
 
 Log into ieng6 -
 I began by opening the terminal with my mouse pad. I then typed in `ssh` followed by my login `cs15lfa23fa@ieng6.ucsd.edu`. I then pressed `<enter>`. I then entered my password then pressed `<enter>` again. 
