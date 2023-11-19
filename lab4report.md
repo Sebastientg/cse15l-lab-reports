@@ -21,6 +21,9 @@ I first typed out the command `ls` then `<enter>` to check if the correct reposi
 
 ## Edit the code file to fix the failing test-
 
+I started off editing the ListExamples.java file. To edit the file, I used the terminal to run the command `vim ListExamples.java`. This opened the text editor. Then, I typed `/index1` to search for the first occurrence of index1 in the file and then pressed `<enter>`. After, I typed `<n>` until I reached the last while occurrence of index1. I then typed `<i>` to enter instert mode in vim. I pressed the `<right>` arrow key six times so that I can `<backspace>` the number 1. Then then pressed the number key `<2>` on my keyboard to create the change. I then pressed `<esc>` followed by `:wq` and `<enter>` to save the edits made and exit out of vim. 
+![Image](vim.png)
+![Image](edits.png)
 
 ## Run the tests, demonstrating that they now succeed-
 
