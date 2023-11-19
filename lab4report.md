@@ -34,3 +34,15 @@ To run the tests, I typed the command `bash test.sh`. I then pressed `<enter>`. 
 
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)- 
 
+I first typed in the command `git add ListExamples.java` then pressed `<enter>`. 
+![Image](add.png)
+
+I then typed in the command `git commit ListExamples.java` then pressed `<enter>`. This would prepare the changes to be sent off to GitHub. I was then prompted to vim to add a message. 
+![Image](commit.png)
+
+Once I was in vim, I typed the key `<i>` to enter instert mode. I then typed the message "ListExamples files has been changed." Afterwards, I hit the `<esc>` key to exit insert mode. I then, typed `:wq` followed by `<enter>` to save and quit vim. I was then prompted back to the terminal with a new mesage. 
+![Image](message.png)
+![Image](after.png)
+
+
+![Image](push.png)
