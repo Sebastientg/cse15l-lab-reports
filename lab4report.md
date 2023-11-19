@@ -44,5 +44,5 @@ Once I was in vim, I typed the key `<i>` to enter instert mode. I then typed the
 ![Image](message.png)
 ![Image](after.png)
 
-
+I then typed the command `git push` and pressed `<enter>` to send off my edits to be changed in GitHub. This would therefore update my Lab7 repository that was forked. 
 ![Image](push.png)
