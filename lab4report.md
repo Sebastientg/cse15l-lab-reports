@@ -28,6 +28,9 @@ I started off editing the ListExamples.java file. To edit the file, I used the t
 
 ## Run the tests, demonstrating that they now succeed-
 
+To run the tests, I typed the command `bash test.sh`. I then pressed `<enter>`. This command was a bash command that would run JUnit tests from the bash file. The tests now show that they pass.  
+![Image](pass.png)
+
 
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)- 
 
