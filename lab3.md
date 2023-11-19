@@ -24,6 +24,8 @@ A non-failure inducing input, considering the before code block, would be `{2, 2
   }
 ```
 
+Code in VSCode: 
+![Image](Lab3.png)
 
 Before Code: 
 ```
