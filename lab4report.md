@@ -40,7 +40,7 @@ I first typed in the command `git add ListExamples.java` then pressed `<enter>`.
 I then typed in the command `git commit ListExamples.java` then pressed `<enter>`. This would prepare the changes to be sent off to GitHub. I was then prompted to vim to add a message. 
 ![Image](commit.png)
 
-Once I was in vim, I typed the key `<i>` to enter instert mode. I then typed the message "ListExamples files has been changed." Afterwards, I hit the `<esc>` key to exit insert mode. I then, typed `:wq` followed by `<enter>` to save and quit vim. I was then prompted back to the terminal with a new mesage. 
+Once I was in vim, I typed the key `<i>` to enter insert mode. I then typed the message "ListExamples files has been changed." Afterwards, I hit the `<esc>` key to exit insert mode. I then, typed `:wq` followed by `<enter>` to save and quit vim. I was then prompted back to the terminal with a new mesage. 
 ![Image](message.png)
 ![Image](after.png)
 
