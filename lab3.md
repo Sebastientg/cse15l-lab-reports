@@ -1,8 +1,29 @@
 # Lab Report 3
 
 ## Part 1 - Bugs 
-Array data structure code of reversing and integer type array: 
-The original code contains a bug when attempting to reverse an array. When the code assigns arr[i] to a new value, the original value is overwritten before it is assigned to the correct position. To fix this issue the new code uses two pointers to to switch the values from start to end. This way, the elements are correctly reversed in place without overwriting their original values. 
+Array data structure code of reversing an integer type array: 
+The original code contains a bug when attempting to reverse an array. When the code assigns `arr[i]` to a new value, the original value is overwritten before it is assigned to the correct position. To fix this issue the new code uses two pointers to to switch the values from start to end, while keeping track of the previous value. This way, the elements are correctly reversed in place without overwriting their original values. 
+
+A faliure inducing input for the JUnit tests, considering the before code block, would be `{1, 2, 3, 4, 5}` leading to an incorrect arrary reverse of `{5, 4, 3, 4, 5}`. The JUnit test would look something like the following: (The test would fail) 
+```
+ @Test
+  public void testReverseInPlace2() {
+    int[] input1 = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input1); 
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input1);
+  }
+```
+
+A non-failure inducing input, considering the before code block, would be `{2, 2, 2, 2}` leading to a non-incorrect array reverse of `{2, 2, 2, 2}`. This is because all the integers are the same in the array. The JUnit test would look something like the following: (The test would pass)
+```
+ @Test
+  public void testReverseInPlace2() {
+    int[] input1 = {2, 2, 2, 2};
+    ArrayExamples.reverseInPlace(input1); 
+    assertArrayEquals(new int[]{2, 2, 2, 2}, input1);
+  }
+```
+
 
 Before Code: 
 ```
